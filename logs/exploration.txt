@@ -1,0 +1,21 @@
+economics
+Please identify points of interest
+
+finance
+Please identify points of interest
+
+mathematics
+Please identify points of interest
+
+physics
+Please identify points of interest
+
+politics
+Please identify points of interest
+
+probability
+Please identify points of interest
+
+statistics
+Please identify points of interest
+

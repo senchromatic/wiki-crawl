@@ -1,0 +1,144 @@
+Title:
+
+Analysis of Wikipedia Link Subgraphs for Academic Disciplines
+
+
+Abstract:
+
+This project is a semi-supervised, exploratory data analysis pipeline for weakly-connected subgraphs of Wikipedia articles. Each subgraph is created automatically by crawling through hyperlinks, beginning from a small (manually) pre-defined set of pages that are central to a specific academic discipline. The procedure introduced here aims to greedily visit pages most frequently linked to by those seen so far. Preliminary analyses of the subgraphs show the distributions of tf-idf statistics, the relationship between graph and in-degree with respect to the number of pages crawled as two functions, in addition to a visualization of the stronger ties within each subgraph. Upon processing the subgraphs using several graph algorithms, we can extract information regarding their structural properties and various interesting metrics.
+
+
+Definitions:
+
+academic discipline ≡ subgraph
+article ≡ page ≡ vertex ≡ document || term
+directed edge ≡ hyperlink from document to term
+strong tie ≡ {(u,v) : tf-idf(u,v) > top_p%ile({tf_idfs})}
+tf-idf statistic ≡ term_weight * idf_weight ≡ relative strength of tie
+freqency of t in d ≡ f(t,d)
+term_weight ≡ K + (1-K)*f(t,d)/max{f(t,d) : t∈d}, K = 0.5
+idf ≡ log(|V|/n(t))
+n(t) ≡ |{t : max{f(t,d) : d∈V} > 0}|
+
+
+Procedure:
+
+1. For each academic discipline, choose a few relevant and high-importance pages to create subgraph "source lists" in the disciplines/ directory
+$ less disciplines/*.txt
+
+2. Install packages
+$ bash scripts/install.sh
+
+3. Graph exploration (for each subgraph)
+[i] Add source set's neighborhood to a priority queue, sorted in order by non-decreasing number of links from all previously visited pages
+[ii] If (a pre-fixed threshold number of pages has yet been reached) && (the priority queue is non-empty)
+[iii] Pop off the first page (with highest in-degree)
+[iv] crawl all links on that page
+[v] Evaluate condition in step ii, otherwise continue to step vi
+[vi] Remove the source set because these pages themselves are not topics within any discipline, but rather, mostly abstract meta-summaries
+[vii] Remove all vertices yet to be visited
+[viii] Compute tf-idf statistics. Save results to output/
+$ python
+$ import crawler
+$ crawler.download()  # download from all source files in disciplines/ folder
+$ less "output/*.csv"
+(another way to run the crawler, to examine only one academic discipline)
+$ python "scripts/crawler, strong_ties (python)/crawler.py"
+$ ../../physics.txt
+$ 100
+
+4. Choose an appropriate p%ile cutoff for effective visualization and meaningful analysis of individual components. The derived graph should hence consist of strong ties, showing only connections between related pages.
+$ python "scripts/crawler, strong_ties (python)/strong_ties.py"
+$ ls visuals/strong_ties
+
+5. Two functions (response variables) w.r.t. number of pages crawled: i) In-Degree of Most Recently Added Vertex, and ii) Order of Graph (Vertices Seen).
+$ rstudio "distributions, exploration (r)/distributions.R"
+$ rstudio "distributions, exploration (r)/exploration.R"
+
+6. Analysis of underlying subgraph structures
+i) Parse the saved data and load the subgraph into memory; count number of vertices, number of edges, and graph density
+ii) All-pairs shortest-path using Floyd-Warshall's algorithm, reconstructing the shortest paths afterward
+iii) Compute the eccentricity of each vertex (hereby obtaining the radius, diameter, connectedness, center, and periphery)
+iv) Compute local clustering coefficients (and thus, the average)
+v) Find strongly connected components
+vi) Calculate pageranks, along with short sublist of pages with the highest and lowest pageranks, respectively
+vii) Reverse all edges and calculate pageranks on the transpose graph
+$ make run -C "scripts/analysis (cpp)/"
+
+
+Outline of directories and files [brief description] {step "#" in Procedure}:
+
+./ [root]
+	disciplines/ [names (relative addresses) of Wikipedia articles used in source sets for crawling] {1}
+	logs/ [low-level information extracted from subgraphs, copy+pasted from standard output of scripts] {3} {4} {5} {6}
+	output/ [metadata generated from crawling]
+		*_edgelist.csv [list of edges in each subgraph] {3}
+		*_indorder.csv [indegree and subgraph order per page crawled] {3}
+	scripts/ [Python 2.7, R, and C++14 code used for crawling, parsing, and data analysis]
+		analysis (cpp)/ [processing subgraph structure and metrics: last stage of data analysis] {6}
+		crawler, strong_ties (python)/ [first stage: crawling algorithm, visualization of strong ties] {3} {4}
+		distributions, exploration (r)/ [distributions of tf-idf statistics, in-degree and subgraph order: second stage of data analysis] {5}
+		install.sh [bash script to install packages] {2}
+	visuals/ [graphics for data analysis]
+		distributions/ [distributions of tf-idf statistics] {5}
+		exploration/ [in-degree and subgraph order] {5}
+		strong_ties/ [visualization of strong ties] {4}
+	README [this file] {0}
+
+
+Observations:
+
+1. non-parametric tf-idf distributions
+
+2. in-degree non-monotonic w.r.t. pages crawled
+
+3. order of graph non-linear w.r.t. pages crawled
+
+4. subgraph densities
+[i] mathematics (0.39)
+[ii] finance (0.46)
+[iii] physics (0.50)
+[iv] probability (0.62)
+[v] economics (0.65)
+[vi] politics (0.67)
+[vii] statistics (0.91)
+
+5. average clustering coefficients
+[i] mathematics (0.56)
+[ii] finance (0.61)
+[iii] physics (0.67)
+[iv] politics (0.73)
+[v] economics (0.73)
+[vi] probability (0.82)
+[vii] statistics (0.91)
+
+6. strongly connected components
+[i] statistics (1), economics (1), probability (1), politics (1)
+[ii] physics (2)*
+[iii] finance (3)*
+[iv] mathematics (4)*
+*: (n) SCCs => (n-1) isolated vertices on periphery
+
+7. diameters 
+[i] statistics (2), economics (2)
+[ii] probability (3)
+[iii] politics (4)
+[iv] physics (inf), finance (inf), mathematics (inf)
+
+8. radii
+[i] statistics (1)
+[ii] economics (2), probability (2), politics (2), physics (2), finance (2), mathematics (2)
+
+
+Future work:
+
+HITS, Hilltop algorithm
+triadic closure
+forward edges, back edges, bidirectional edges
+how closely related are two topics? metrics: 1. unweighted shortest path (number of hops) 2. weighted shortest path 3. maximum network flow
+Weighted graphs where weight is reciprocal of tf-idf (can be used for cluster analysis)
+Analysis on pairs of subgraphs (disciplines) - bridges (if any exist), shortest interconnecting paths (ditto), maximum network flow (add infinity capacity edges from an auxiliary source vertex to each vertex in one subgraph, and add infinite capacity edges from each vertex in the other subgraph to an auxiliary sink)
+Order of minimum spanning tree is not defined for undirected graphs, but we can attack the arborescence problem using Edmonds'/Chu-Liu algorithm
+Betweenness centrality to determine most "important" vertices (with highest centrality scores)
+Distinguishing between types of topic relationships: is-friends-with, is-an-instance-of, is-used-in, makes-use-of, belongs-to
+

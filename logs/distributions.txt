@@ -1,0 +1,8 @@
+Economics (|E| = 5972), 99th percentile of tf-idf scores: 0.58956845708694
+Finance (|E| = 4477), 99th percentile of tf-idf scores: 1.14938461404
+Mathematics (|E| = 3521), 99th percentile of tf-idf scores: 1.43706668649
+Physics (|E| = 4625), 99th percentile of tf-idf scores: 1.0886271882
+Politics (|E| = 6389), 99th percentile of tf-idf scores: 0.606343520303
+Probability (|E| = 5655), 99th percentile of tf-idf scores: 1.1558948235042
+Statistics (|E| = 8618), 99th percentile of tf-idf scores: 0.105403455924
+

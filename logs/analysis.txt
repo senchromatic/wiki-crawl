@@ -1,0 +1,298 @@
+Loading...
+
+
+Processing...
+
+economics
+Total number of vertices: 96
+Total number of edges: 5972
+Density: 0.654825
+Radius: 2
+Diameter: 2
+Center (central vertices): {Keynesian_economics, Tjalling_Koopmans, Inflation, Education_economics, Game_theory, Schools_of_economic_thought, Classical_economics, JEL_classification_codes, Ancient_economic_thought, Amartya_Sen, Economic_geography, Public_economics, Mathematical_economics, Development_economics, Scarcity, Monopsony, Health_economics, Post-scarcity_economy, Behavioral_economics, Microeconomics, Welfare_economics, History_of_economic_thought, Karl_Marx, Business_economics, Market_failure, Financial_economics, Milton_Friedman, List_of_economists, Regional_science, Aggregate_demand, Law_and_economics, Service_economy, Institutional_economics, Kenneth_Arrow, Knowledge_economy, Market_(economics), Gary_Becker, Market_structure, Labour_economics, Supply_and_demand, Demographic_economics, Monetary_economics, Experimental_economics, John_Maynard_Keynes, Opportunity_cost, Paul_Krugman, Economic_methodology, Agricultural_economics, Economic_growth, Economic_system, Oligopoly, Environmental_economics, International_economics, Organizational_economics, Marxian_economics, Econometrics, Economic_equilibrium, Information_economics, Ecological_economics, Urban_economics, Robert_Solow, Natural_resource_economics, Austrian_School, Adam_Smith, Industrial_organization, Evolutionary_economics, Utility, National_accounts, Mercantilism, Neoclassical_economics, Economic_history, David_Ricardo, Externality, Post-Keynesian_economics, List_of_important_publications_in_economics, Central_bank, Computational_economics, Great_Depression, Joseph_Schumpeter, Public_good, Chicago_school_of_economics, Macroeconomics, Managerial_economics, Feminist_economics, Business_cycle, Demand, Mainstream_economics, Alfred_Marshall, Friedrich_Hayek, Paul_Samuelson, Monetary_policy, Heterodox_economics, Monetarism, Unemployment, Marginal_cost, Monopoly}
+Periphery (periperhal vertices): {Keynesian_economics, Tjalling_Koopmans, Inflation, Education_economics, Game_theory, Schools_of_economic_thought, Classical_economics, JEL_classification_codes, Ancient_economic_thought, Amartya_Sen, Economic_geography, Public_economics, Mathematical_economics, Development_economics, Scarcity, Monopsony, Health_economics, Post-scarcity_economy, Behavioral_economics, Microeconomics, Welfare_economics, History_of_economic_thought, Karl_Marx, Business_economics, Market_failure, Financial_economics, Milton_Friedman, List_of_economists, Regional_science, Aggregate_demand, Law_and_economics, Service_economy, Institutional_economics, Kenneth_Arrow, Knowledge_economy, Market_(economics), Gary_Becker, Market_structure, Labour_economics, Supply_and_demand, Demographic_economics, Monetary_economics, Experimental_economics, John_Maynard_Keynes, Opportunity_cost, Paul_Krugman, Economic_methodology, Agricultural_economics, Economic_growth, Economic_system, Oligopoly, Environmental_economics, International_economics, Organizational_economics, Marxian_economics, Econometrics, Economic_equilibrium, Information_economics, Ecological_economics, Urban_economics, Robert_Solow, Natural_resource_economics, Austrian_School, Adam_Smith, Industrial_organization, Evolutionary_economics, Utility, National_accounts, Mercantilism, Neoclassical_economics, Economic_history, David_Ricardo, Externality, Post-Keynesian_economics, List_of_important_publications_in_economics, Central_bank, Computational_economics, Great_Depression, Joseph_Schumpeter, Public_good, Chicago_school_of_economics, Macroeconomics, Managerial_economics, Feminist_economics, Business_cycle, Demand, Mainstream_economics, Alfred_Marshall, Friedrich_Hayek, Paul_Samuelson, Monetary_policy, Heterodox_economics, Monetarism, Unemployment, Marginal_cost, Monopoly}
+Connectedness: 1
+Average clustering coefficient: 0.734186
+Number of strongly connected components: 1
+Component #1 = {Keynesian_economics, Tjalling_Koopmans, Inflation, Education_economics, Game_theory, Schools_of_economic_thought, Classical_economics, JEL_classification_codes, Ancient_economic_thought, Amartya_Sen, Economic_geography, Public_economics, Mathematical_economics, Development_economics, Scarcity, Monopsony, Health_economics, Post-scarcity_economy, Behavioral_economics, Microeconomics, Welfare_economics, History_of_economic_thought, Karl_Marx, Business_economics, Market_failure, Financial_economics, Milton_Friedman, List_of_economists, Regional_science, Aggregate_demand, Law_and_economics, Service_economy, Institutional_economics, Kenneth_Arrow, Knowledge_economy, Market_(economics), Gary_Becker, Market_structure, Labour_economics, Supply_and_demand, Demographic_economics, Monetary_economics, Experimental_economics, John_Maynard_Keynes, Opportunity_cost, Paul_Krugman, Economic_methodology, Agricultural_economics, Economic_growth, Economic_system, Oligopoly, Environmental_economics, International_economics, Organizational_economics, Marxian_economics, Econometrics, Economic_equilibrium, Information_economics, Ecological_economics, Urban_economics, Robert_Solow, Natural_resource_economics, Austrian_School, Adam_Smith, Industrial_organization, Evolutionary_economics, Utility, National_accounts, Mercantilism, Neoclassical_economics, Economic_history, David_Ricardo, Externality, Post-Keynesian_economics, List_of_important_publications_in_economics, Central_bank, Computational_economics, Great_Depression, Joseph_Schumpeter, Public_good, Chicago_school_of_economics, Macroeconomics, Managerial_economics, Feminist_economics, Business_cycle, Demand, Mainstream_economics, Alfred_Marshall, Friedrich_Hayek, Paul_Samuelson, Monetary_policy, Heterodox_economics, Monetarism, Unemployment, Marginal_cost, Monopoly}
+<original graph>
+Highest pageranks: 
+1. Supply_and_demand : 0.0146459
+2. Macroeconomics : 0.0145501
+3. Econometrics : 0.0143689
+4. Game_theory : 0.0141727
+5. Milton_Friedman : 0.0138522
+Lowest pageranks: 
+96. Inflation : 0.00653393
+95. Unemployment : 0.0065609
+94. Great_Depression : 0.00695577
+93. Monetarism : 0.00696062
+92. Central_bank : 0.00733824
+</original graph>
+<transpose graph>
+Highest pageranks: 
+1. History_of_economic_thought : 0.0154246
+2. Heterodox_economics : 0.0154226
+3. Schools_of_economic_thought : 0.0154163
+4. Economic_system : 0.0154021
+5. Neoclassical_economics : 0.0153756
+Lowest pageranks: 
+96. Public_good : 0.00229711
+95. Demand : 0.00256327
+94. Tjalling_Koopmans : 0.00265906
+93. Alfred_Marshall : 0.00304658
+92. Kenneth_Arrow : 0.003144
+</transpose graph>
+
+finance
+Total number of vertices: 99
+Total number of edges: 4477
+Density: 0.461451
+Radius: 2
+Diameter: INFINITY
+Center (central vertices): {Stock_certificate, Market_(economics), Exchange_(organized_market), Stock_exchange, Futures_exchange, Interest_rate, Financial_regulation, Extendible_bond, Exchangeable_bond, Default_(finance), Commercial_mortgage-backed_security, Capital_structure, Coupon_(bond), Security_(finance), Common_stock, Embedded_option, High-yield_debt, Bond_valuation, Debenture, Zero-coupon_bond, Yield_to_maturity, Corporate_bond, Forward_contract, Yield_curve, Registered_share, Fixed_income, Call_option, Callable_bond, Municipal_debt, Floating_rate_note, Municipal_bond, Credit_derivative, Asset-backed_security, Hybrid_security, Credit_default_swap, Bond_duration, Structured_finance, Public_finance, Financial_market, Collateralized_debt_obligation, Swap_(finance), Commodity_market, Senior_debt, Exotic_option, Over-the-counter_(finance), Derivative_(finance), Personal_finance, Speculation, Loan, Bond_(finance), Derivatives_market, Securitization, Financial_instrument, Government_bond, Collateralized_mortgage_obligation, Bond_market, Margin_(finance), Futures_contract, Short_(finance), Option_(finance), Convertible_bond, Central_bank, Puttable_bond, Credit_risk, Government_debt, Interest, Subordinated_debt, Mergers_and_acquisitions, Warrant_(finance), Foreign_exchange_market, Commercial_paper, Financial_market_participants, Money_market, Spot_market, Deposit_account, Stock_market, Bond_option, Put_option, Consumer_debt, Preferred_stock, Clearing_house_(finance), Inflation-indexed_bond, Stock, Mortgage-backed_security, Corporate_finance, Bank, Bankruptcy, Debt, Initial_public_offering, Trader_(finance), Hedge_(finance), Exchange_rate}
+Periphery (periperhal vertices): {Social_Science_Research_Network, United_States}
+Connectedness: 0
+Average clustering coefficient: 0.607432
+Number of strongly connected components: 3
+Component #1 = {Social_Science_Research_Network}
+Component #2 = {United_States}
+Component #3 = {Stock_certificate, Bank, Real_estate, Corporate_finance, Mortgage-backed_security, Inflation-indexed_bond, Consumer_debt, Put_option, Bond_option, Stock_market, Deposit_account, Spot_market, Money_market, Financial_market_participants, Commercial_paper, Foreign_exchange_market, Warrant_(finance), Mergers_and_acquisitions, Senior_debt, Swap_(finance), Collateralized_debt_obligation, Over-the-counter_(finance), Personal_finance, Derivative_(finance), Subordinated_debt, Interest, Credit_risk, Central_bank, Convertible_bond, Option_(finance), Bond_market, Trader_(finance), Hedge_(finance), Short_(finance), Futures_contract, Debt, Bankruptcy, Volatility_(finance), Tax, Bond_duration, Credit_default_swap, Hybrid_security, Margin_(finance), Collateralized_mortgage_obligation, Government_bond, Financial_instrument, Stock, Securitization, Derivatives_market, Loan, Reinsurance, Exotic_option, Exchange_rate, Government_debt, Financial_market, Commodity_market, Speculation, Public_finance, Structured_finance, Asset-backed_security, Credit_derivative, Municipal_bond, Floating_rate_note, Municipal_debt, Callable_bond, Call_option, Fixed_income, Registered_share, Yield_curve, Forward_contract, Corporate_bond, Yield_to_maturity, Currency, Zero-coupon_bond, Debenture, Puttable_bond, Bond_valuation, High-yield_debt, Embedded_option, Common_stock, Bond_(finance), Security_(finance), Coupon_(bond), Capital_structure, Clearing_house_(finance), Commercial_mortgage-backed_security, Default_(finance), Exchangeable_bond, Initial_public_offering, Extendible_bond, Financial_regulation, Interest_rate, Futures_exchange, Stock_exchange, Preferred_stock, Exchange_(organized_market), Market_(economics)}
+<original graph>
+Highest pageranks: 
+1. Social_Science_Research_Network : 0.0178477
+2. Securitization : 0.0177554
+3. Stock : 0.0158957
+4. Bank : 0.0138915
+5. Financial_market : 0.0137797
+Lowest pageranks: 
+99. Capital_structure : 0.0044892
+98. Extendible_bond : 0.00493081
+97. Puttable_bond : 0.00493492
+96. Callable_bond : 0.00508626
+95. Embedded_option : 0.00509102
+</original graph>
+<transpose graph>
+Highest pageranks: 
+1. Corporate_bond : 0.0198936
+2. Bond_(finance) : 0.0183451
+3. Fixed_income : 0.0177049
+4. Collateralized_debt_obligation : 0.0172767
+5. Municipal_debt : 0.0172214
+Lowest pageranks: 
+99. Social_Science_Research_Network : 0.00151515
+98. United_States : 0.00156667
+97. Reinsurance : 0.00160891
+96. Real_estate : 0.00165558
+95. Tax : 0.00215337
+</transpose graph>
+
+mathematics
+Total number of vertices: 96
+Total number of edges: 3521
+Density: 0.386075
+Radius: 2
+Diameter: INFINITY
+Center (central vertices): {Finite_geometry, Order_theory, Mathematical_optimization, Functional_analysis, Graph_theory, Axiom, Category_theory, Calculus, Differential_geometry, Abstract_algebra, Dynamical_systems_theory, Elementary_algebra, Real_number, Trigonometry, Pure_mathematics, Differential_equation, Carl_Friedrich_Gauss, Group_(mathematics), Mathematics_education, Algebraic_geometry, Geometry, History_of_mathematics, Leonhard_Euler, Group_theory, Game_theory, Arithmetic, Lie_group, Henri_Poincar%C3%A9, Field_(mathematics), Information_theory, Multilinear_algebra, Projective_geometry, General_relativity, Representation_theory, Bernhard_Riemann, Vector_space, Non-Euclidean_geometry, Lie_theory, Special_relativity, Euclidean_geometry, Matrix_(mathematics), David_Hilbert, Euclidean_space, Statistics, Linear_algebra, Mathematical_physics, Mathematical_analysis, Combinatorics, Hermann_Weyl, Ring_(mathematics), Mathematical_statistics, Topology, Felix_Klein, Number_theory, Algebra, Recreational_mathematics, Control_theory, Discrete_geometry, Computational_mathematics, Analytic_geometry, Mathematics_and_art, Mathematical_logic, Set_theory, Probability_theory, Numerical_analysis, Discrete_mathematics, Applied_mathematics, Theory_of_computation}
+Periphery (periperhal vertices): {Integrated_Authority_File, National_Diet_Library, Encyclopedia_of_Mathematics}
+Connectedness: 0
+Average clustering coefficient: 0.562343
+Number of strongly connected components: 4
+Component #1 = {National_Diet_Library}
+Component #2 = {Integrated_Authority_File}
+Component #3 = {Encyclopedia_of_Mathematics}
+Component #4 = {Finite_geometry, Order_theory, Mathematical_optimization, Functional_analysis, Graph_theory, Set_(mathematics), Axiom, Category_theory, Calculus, Angle, Differential_geometry, Abstract_algebra, Dynamical_systems_theory, Elementary_algebra, Computer_science, Real_number, Trigonometry, Pure_mathematics, Differential_equation, Carl_Friedrich_Gauss, Group_(mathematics), Abelian_group, Mathematics_education, Algebraic_geometry, Discrete_mathematics, Applied_mathematics, Theory_of_computation, Lie_theory, Electromagnetism, Mathematics_and_art, Mathematical_logic, Numerical_analysis, Probability_theory, Set_theory, Computational_mathematics, Analytic_geometry, Sphere, Discrete_geometry, Albert_Einstein, Control_theory, Recreational_mathematics, Algebra, Number_theory, Felix_Klein, Topology, Lie_group, Integer, Archimedes, Euclid, David_Hilbert, Vector_space, Euclid%27s_Elements, Physics, Mathematical_statistics, Hermann_Weyl, Ring_(mathematics), Combinatorics, Field_(mathematics), Function_(mathematics), Topological_space, Quantum_mechanics, Non-Euclidean_geometry, Plane_(geometry), Ren%C3%A9_Descartes, Projective_geometry, Special_relativity, Euclidean_geometry, Bernhard_Riemann, Matrix_(mathematics), Algebraic_topology, Euclidean_space, Statistics, Hyperbolic_geometry, Engineering, Isaac_Newton, Linear_algebra, Cryptography, Henri_Poincar%C3%A9, Classical_mechanics, Apollonius_of_Perga, Game_theory, Arithmetic, Group_theory, Leonhard_Euler, History_of_mathematics, Geometry, Multilinear_algebra, Information_theory, General_relativity, Representation_theory, Mathematical_physics, Algorithm, Mathematical_analysis}
+<original graph>
+Highest pageranks: 
+1. Integrated_Authority_File : 0.0305937
+2. National_Diet_Library : 0.014824
+3. Geometry : 0.0137362
+4. Number_theory : 0.012942
+5. Calculus : 0.0120587
+Lowest pageranks: 
+96. Lie_group : 0.00386365
+95. Projective_geometry : 0.00388296
+94. Abelian_group : 0.00409442
+93. Algebraic_topology : 0.00419764
+92. Cryptography : 0.00442467
+</original graph>
+<transpose graph>
+Highest pageranks: 
+1. Geometry : 0.0206728
+2. Differential_geometry : 0.0203139
+3. History_of_mathematics : 0.0197902
+4. Algebraic_geometry : 0.01847
+5. Finite_geometry : 0.0182007
+Lowest pageranks: 
+96. Encyclopedia_of_Mathematics : 0.0015625
+95. Integrated_Authority_File : 0.0015625
+94. National_Diet_Library : 0.00158501
+93. Isaac_Newton : 0.00249804
+92. Angle : 0.0025245
+</transpose graph>
+
+physics
+Total number of vertices: 97
+Total number of edges: 4625
+Density: 0.496671
+Radius: 2
+Diameter: INFINITY
+Center (central vertices): {Elementary_charge, Chirality_(physics), Strange_quark, Fundamental_interaction, Gluon, String_theory, Special_relativity, Antineutron, Nuclear_physics, Standard_Model, Elementary_particle, List_of_particles, General_relativity, Murray_Gell-Mann, Neutron, Spin_(physics), Down_quark, Theoretical_physics, Quark_model, Strong_interaction, Fermion, Photon, Tau_neutrino, Wolfgang_Pauli, Max_Born, Charm_quark, Antiproton, Baryon, Quantum_electrodynamics, Classical_mechanics, Graviton, Quantum_chromodynamics, Niels_Bohr, Electromagnetism, B_meson, Schr%C3%B6dinger_equation, Up_quark, Quark, Muon, Quantum_field_theory, Proton, Electron, Wave%E2%80%93particle_duality, Rho_meson, Kaon, D_meson, Standard_Model_(mathematical_formulation), Speed_of_light, Tau_(particle), Positron, List_of_mesons, Lepton, Albert_Einstein, Antiparticle, Meson, Molecule, Energy, Paul_Dirac, Condensed_matter_physics, Atomic_nucleus, Werner_Heisenberg, Atom, Top_quark, Boson, Higgs_boson, Richard_Feynman, Gravity, Particle_physics, Wave, Electric_charge, Antineutrino, Electron_neutrino, Down_antiquark, Muon_neutrino, Quantum_mechanics, Quantum_gravity, Gauge_boson, Virtual_particle, Pion, Strange_antiquark, Optics, Weak_interaction, Enrico_Fermi, Nucleon, Hadron, W_and_Z_bosons, Bottom_quark, Parity_(physics)}
+Periphery (periperhal vertices): {Integrated_Authority_File}
+Connectedness: 0
+Average clustering coefficient: 0.669692
+Number of strongly connected components: 2
+Component #1 = {Integrated_Authority_File}
+Component #2 = {Spacetime, Nobel_Prize_in_Physics, Elementary_charge, Chirality_(physics), Strange_quark, Fundamental_interaction, Gluon, String_theory, Special_relativity, Antineutron, Nuclear_physics, Standard_Model, Elementary_particle, List_of_particles, General_relativity, Murray_Gell-Mann, Theory_of_relativity, Neutron, Spin_(physics), Down_quark, Theoretical_physics, Quark_model, Strong_interaction, Fermion, Photon, Tau_neutrino, Wolfgang_Pauli, Max_Born, Antiproton, Baryon, Quantum_electrodynamics, Classical_mechanics, Quantum_field_theory, Proton, Charm_quark, Thermodynamics, Gravity, Quantum_chromodynamics, Niels_Bohr, Electromagnetism, B_meson, Schr%C3%B6dinger_equation, Up_quark, Quark, Muon, Electron, Wave%E2%80%93particle_duality, Rho_meson, Kaon, D_meson, Standard_Model_(mathematical_formulation), Speed_of_light, Tau_(particle), Positron, List_of_mesons, Lepton, Albert_Einstein, Antiparticle, Meson, Molecule, Energy, Paul_Dirac, Condensed_matter_physics, Atomic_nucleus, Werner_Heisenberg, Erwin_Schr%C3%B6dinger, Atom, Top_quark, Boson, Higgs_boson, Richard_Feynman, Particle_physics, Wave, Electric_charge, Antineutrino, Electron_neutrino, Down_antiquark, Muon_neutrino, Hendrik_Lorentz, Quantum_mechanics, Quantum_gravity, Gauge_boson, Graviton, Statistical_mechanics, Virtual_particle, Pion, Strange_antiquark, Optics, Weak_interaction, Enrico_Fermi, Nucleon, Max_Planck, Hadron, W_and_Z_bosons, Bottom_quark, Parity_(physics)}
+<original graph>
+Highest pageranks: 
+1. Integrated_Authority_File : 0.0163745
+2. Particle_physics : 0.0150992
+3. Electron : 0.0145955
+4. Quantum_mechanics : 0.0141467
+5. Quark : 0.0128938
+Lowest pageranks: 
+97. Condensed_matter_physics : 0.0055084
+96. Chirality_(physics) : 0.00555655
+95. Wave : 0.00583185
+94. Spacetime : 0.00600407
+93. Parity_(physics) : 0.00623587
+</original graph>
+<transpose graph>
+Highest pageranks: 
+1. Particle_physics : 0.0184458
+2. Standard_Model : 0.0171264
+3. Photon : 0.0166633
+4. Standard_Model_(mathematical_formulation) : 0.0158455
+5. Nuclear_physics : 0.0155901
+Lowest pageranks: 
+97. Integrated_Authority_File : 0.00154639
+96. Elementary_charge : 0.00269342
+95. Wave : 0.00304858
+94. Spacetime : 0.00339579
+93. Nobel_Prize_in_Physics : 0.00346638
+</transpose graph>
+
+politics
+Total number of vertices: 98
+Total number of edges: 6389
+Density: 0.672102
+Radius: 2
+Diameter: 4
+Center (central vertices): {Latvia, Portugal, Estonia, Norway, Republic_of_Ireland, Romania, Bulgaria, Finland, Ottoman_Empire, Luxembourg, Croatia, Germany, Liechtenstein, Denmark, Greece, San_Marino, Monaco, Ukraine, Belgium, China, Morocco, Unitary_state, Montenegro, Iceland, Europe, Czech_Republic, Slovakia, Belarus, Andorra, Bosnia_and_Herzegovina, Hungary, Serbia, Saudi_Arabia, Lithuania, Dependent_territory, Turkey, Gibraltar, NATO, Georgia_(country), Qatar, Syria, Mediterranean_Sea, Abkhazia, List_of_states_with_limited_recognition, Switzerland, Tunisia, Azerbaijan, Armenia, Israel, Akrotiri_and_Dhekelia, Italy, South_Ossetia, Japan, Egypt, Spain, Russia, Slovenia, List_of_transcontinental_countries, Lebanon, Council_of_Europe, Soviet_Union, Jordan, Cyprus, French_language, Northern_Cyprus, United_Kingdom, State_of_Palestine, Republic_of_Macedonia, Poland, South_Korea, Mexico, India, Austria, Moldova, Sweden, Malta, Albania, Canada, Australia, France, United_Arab_Emirates, Kazakhstan, Kingdom_of_the_Netherlands, Kosovo, United_Nations, United_Nations_list_of_Non-Self-Governing_Territories, Netherlands}
+Periphery (periperhal vertices): {Wayback_Machine}
+Connectedness: 1
+Average clustering coefficient: 0.730294
+Number of strongly connected components: 1
+Component #1 = {Latvia, The_World_Factbook, United_Arab_Emirates, France, Australia, Canada, Albania, Malta, Moldova, Austria, India, Mexico, South_Korea, Poland, Republic_of_Macedonia, Coordinated_Universal_Time, State_of_Palestine, United_Kingdom, World_War_II, Wayback_Machine, Northern_Cyprus, Human_Development_Index, French_language, Cyprus, Organisation_for_Economic_Co-operation_and_Development, Turkey, Italy, Japan, Soviet_Union, Council_of_Europe, Lebanon, List_of_transcontinental_countries, Slovenia, Central_Intelligence_Agency, European_Union, South_Ossetia, Azerbaijan, Jordan, Egypt, Israel, Armenia, Switzerland, Abkhazia, United_Nations_list_of_Non-Self-Governing_Territories, Mediterranean_Sea, Syria, Qatar, Georgia_(country), NATO, Purchasing_power_parity, Gross_domestic_product, Netherlands, Spain, Sweden, Kingdom_of_the_Netherlands, Kosovo, United_Nations, Dependent_territory, Lithuania, Saudi_Arabia, Serbia, Hungary, Bosnia_and_Herzegovina, Andorra, Belarus, Slovakia, United_States, Czech_Republic, Europe, Iceland, Montenegro, Unitary_state, Russia, Morocco, China, Gibraltar, Kazakhstan, Belgium, Ukraine, Monaco, San_Marino, Greece, Akrotiri_and_Dhekelia, Liechtenstein, Germany, Croatia, Luxembourg, Ottoman_Empire, Finland, Bulgaria, Romania, Tunisia, List_of_states_with_limited_recognition, Denmark, Republic_of_Ireland, Norway, Estonia, Portugal}
+<original graph>
+Highest pageranks: 
+1. United_States : 0.0247832
+2. European_Union : 0.0172074
+3. United_Nations : 0.0158418
+4. United_Kingdom : 0.0144365
+5. France : 0.0139877
+Lowest pageranks: 
+98. United_Nations_list_of_Non-Self-Governing_Territories : 0.00237704
+97. Mediterranean_Sea : 0.00472739
+96. State_of_Palestine : 0.00656375
+95. List_of_transcontinental_countries : 0.00710831
+94. Ottoman_Empire : 0.00724725
+</original graph>
+<transpose graph>
+Highest pageranks: 
+1. Turkey : 0.0144402
+2. France : 0.0142055
+3. Spain : 0.0141018
+4. Italy : 0.0140715
+5. Albania : 0.0138001
+Lowest pageranks: 
+98. Wayback_Machine : 0.00157933
+97. Coordinated_Universal_Time : 0.0019296
+96. Gross_domestic_product : 0.00199257
+95. Purchasing_power_parity : 0.0022438
+94. The_World_Factbook : 0.0034772
+</transpose graph>
+
+probability
+Total number of vertices: 96
+Total number of edges: 5655
+Density: 0.620066
+Radius: 2
+Diameter: 3
+Center (central vertices): {Mode_(statistics), Complementary_event, Pearson_product-moment_correlation_coefficient, Confidence_interval, Semiparametric_regression, Mean, Sample_space, Bayes%27_theorem, Ordinary_least_squares, Statistic, Random_variable, Generalized_linear_model, Statistical_model, Simple_linear_regression, Confounding, Logistic_regression, Law_of_total_probability, Expected_value, Maximum_likelihood, Linear_regression, Exponential_family, Design_of_experiments, Statistical_hypothesis_testing, Multivariate_normal_distribution, Optimal_design, Conditional_probability, Correlation_and_dependence, Parametric_statistics, Conditional_independence, Probability_space, Marginal_distribution, Probability_density_function, Probability_mass_function, Elementary_event, Probability_axioms, Degrees_of_freedom_(statistics), Law_of_large_numbers, Boole%27s_inequality, Event_(probability_theory), Skewness, Regression_analysis, Likelihood_function, Median, Moment_(mathematics), Partial_correlation, Variance, Categorical_variable, Probability_measure, Independence_(probability_theory), Kurtosis, Nonlinear_regression, Standard_deviation, List_of_statistics_articles, Contingency_table, Survival_analysis, Outline_of_statistics, Bayesian_inference, Statistics, Posterior_probability, Normal_distribution, Analysis_of_variance, Cumulative_distribution_function, Joint_probability_distribution, Probability_distribution}
+Periphery (periperhal vertices): {Blocking_(statistics), Statistical_inference, Efficiency_(statistics), Multivariate_analysis_of_variance, Regression_model_validation, Arithmetic_mean, Mixed_model, Time_series, Model_selection, Scatter_plot, Likelihood-ratio_test, Analysis_of_covariance, General_linear_model, Statistical_power, Bayesian_probability, Bayesian_linear_regression, Bootstrapping_(statistics), Spearman%27s_rank_correlation_coefficient, Plug-in_principle, Isotonic_regression, Poisson_regression, Prior_probability, Population_(statistics), Robust_statistics, Nonparametric_regression, System_identification, Errors_and_residuals_in_statistics, Multivariate_statistics, Experiment, Robust_regression, Bias_of_an_estimator, Goodness_of_fit}
+Connectedness: 1
+Average clustering coefficient: 0.823428
+Number of strongly connected components: 1
+Component #1 = {Mode_(statistics), Blocking_(statistics), Complementary_event, Bayesian_linear_regression, Pearson_product-moment_correlation_coefficient, Statistical_inference, Confidence_interval, Semiparametric_regression, Efficiency_(statistics), Mean, Sample_space, Bayes%27_theorem, Ordinary_least_squares, Multivariate_analysis_of_variance, Regression_model_validation, Analysis_of_covariance, Statistic, Random_variable, Generalized_linear_model, Statistical_model, Arithmetic_mean, Simple_linear_regression, Confounding, Logistic_regression, Mixed_model, Law_of_total_probability, Linear_regression, Exponential_family, Scatter_plot, Goodness_of_fit, Experiment, Errors_and_residuals_in_statistics, Nonparametric_regression, Probability_density_function, Skewness, Probability_distribution, Moment_(mathematics), Partial_correlation, Joint_probability_distribution, Isotonic_regression, Cumulative_distribution_function, Analysis_of_variance, Normal_distribution, Bias_of_an_estimator, Posterior_probability, Statistics, Optimal_design, Spearman%27s_rank_correlation_coefficient, Bayesian_inference, Maximum_likelihood, Conditional_independence, Probability_space, Statistical_hypothesis_testing, Bayesian_probability, Correlation_and_dependence, Parametric_statistics, Conditional_probability, Elementary_event, Probability_mass_function, Bootstrapping_(statistics), Marginal_distribution, Population_(statistics), Variance, Categorical_variable, Probability_measure, Prior_probability, Probability_axioms, Degrees_of_freedom_(statistics), Law_of_large_numbers, Boole%27s_inequality, Poisson_regression, Event_(probability_theory), Likelihood_function, Multivariate_normal_distribution, Plug-in_principle, Independence_(probability_theory), Median, Regression_analysis, Expected_value, Statistical_power, Design_of_experiments, General_linear_model, Kurtosis, Nonlinear_regression, Multivariate_statistics, Time_series, Likelihood-ratio_test, Robust_statistics, System_identification, Standard_deviation, Model_selection, List_of_statistics_articles, Contingency_table, Survival_analysis, Outline_of_statistics, Robust_regression}
+<original graph>
+Highest pageranks: 
+1. Statistics : 0.0209804
+2. Bayesian_linear_regression : 0.01566
+3. Probability_distribution : 0.0154977
+4. Likelihood_function : 0.0144954
+5. Bayesian_inference : 0.0139899
+Lowest pageranks: 
+96. Probability_mass_function : 0.0054369
+95. Cumulative_distribution_function : 0.00576133
+94. Elementary_event : 0.00599406
+93. Boole%27s_inequality : 0.00605565
+92. Complementary_event : 0.00605565
+</original graph>
+<transpose graph>
+Highest pageranks: 
+1. Random_variable : 0.0172983
+2. List_of_statistics_articles : 0.0162529
+3. Probability_distribution : 0.014399
+4. Variance : 0.0133001
+5. Moment_(mathematics) : 0.0132359
+Lowest pageranks: 
+96. Bayesian_probability : 0.00262311
+95. Prior_probability : 0.00316568
+94. Posterior_probability : 0.00346504
+93. Cumulative_distribution_function : 0.00357921
+92. Probability_mass_function : 0.00380971
+</transpose graph>
+
+statistics
+Total number of vertices: 98
+Total number of edges: 8618
+Density: 0.906585
+Radius: 1
+Diameter: 2
+Center (central vertices): {Kendall_tau_rank_correlation_coefficient, Maximum_likelihood, Population_(statistics), Errors_and_residuals_in_statistics, Pearson_product-moment_correlation_coefficient}
+Periphery (periperhal vertices): {Statistical_parameter, Loss_function, Clinical_trial, Median, Sampling_(statistics), Statistical_model, Rank_correlation, Replication_(statistics), Nonlinear_regression, Isotonic_regression, Survival_analysis, Categorical_variable, Random_assignment, Descriptive_statistics, Poisson_regression, Effect_size, Bayesian_inference, Spearman%27s_rank_correlation_coefficient, Skewness, Interaction_(statistics), Bootstrapping_(statistics), Student%27s_t-test, Parametric_statistics, Factorial_experiment, Multivariate_normal_distribution, Bayes_factor, Regression_model_validation, Analysis_of_covariance, Multivariate_analysis_of_variance, Ordinary_least_squares, Epidemiology, Partial_correlation, Blocking_(statistics), Mode_(statistics), Biostatistics, Prediction_interval, Partition_of_sums_of_squares, Contingency_table, Statistical_inference, Confidence_interval, Semiparametric_regression, Confounding, Mixed_model, Logistic_regression, Degrees_of_freedom_(statistics), Prior_probability, General_linear_model, Scientific_control, Goodness_of_fit, Experiment, Nonparametric_regression, Bayesian_probability, Central_tendency, Correlation_and_dependence, Regression_analysis, Robust_statistics, System_identification, Standard_deviation, Model_selection, Multivariate_statistics, Time_series, Likelihood-ratio_test, Resampling_(statistics), Credible_interval, Observational_study, Posterior_probability, Likelihood_function, Generalized_linear_model, Statistic, Statistical_dispersion, Optimal_design, Probability_distribution, F-test, Plug-in_principle, Maximum_a_posteriori_estimation, Mean, Efficiency_(statistics), Scatter_plot, Exponential_family, Randomized_controlled_trial, Linear_regression, Robust_regression, Statistical_hypothesis_testing, Design_of_experiments, Z-test, Bayesian_linear_regression, Simple_linear_regression, Arithmetic_mean, Statistical_theory, Statistical_power, Analysis_of_variance, Bias_of_an_estimator, Coefficient_of_determination}
+Connectedness: 1
+Average clustering coefficient: 0.913397
+Number of strongly connected components: 1
+Component #1 = {Statistical_parameter, Statistical_power, Arithmetic_mean, Bayesian_linear_regression, Pearson_product-moment_correlation_coefficient, Design_of_experiments, Statistical_hypothesis_testing, Robust_regression, Linear_regression, Randomized_controlled_trial, Exponential_family, Simple_linear_regression, Efficiency_(statistics), Plug-in_principle, Maximum_likelihood, F-test, Probability_distribution, Errors_and_residuals_in_statistics, Nonparametric_regression, Optimal_design, Statistical_dispersion, Statistic, Generalized_linear_model, Mean, Posterior_probability, Observational_study, Credible_interval, Resampling_(statistics), Likelihood-ratio_test, Likelihood_function, Time_series, Multivariate_statistics, Model_selection, Standard_deviation, System_identification, Robust_statistics, Regression_analysis, Correlation_and_dependence, Central_tendency, Loss_function, Bayesian_probability, Maximum_a_posteriori_estimation, Goodness_of_fit, Scientific_control, Experiment, Prior_probability, Logistic_regression, Mixed_model, Degrees_of_freedom_(statistics), Confounding, Scatter_plot, Analysis_of_variance, Bias_of_an_estimator, Coefficient_of_determination, Z-test, Semiparametric_regression, Confidence_interval, Statistical_theory, Contingency_table, Partition_of_sums_of_squares, Prediction_interval, Population_(statistics), Biostatistics, Mode_(statistics), Partial_correlation, Ordinary_least_squares, Multivariate_analysis_of_variance, Analysis_of_covariance, Bayes_factor, Multivariate_normal_distribution, Factorial_experiment, Parametric_statistics, Student%27s_t-test, Bootstrapping_(statistics), Interaction_(statistics), Skewness, Spearman%27s_rank_correlation_coefficient, Bayesian_inference, Poisson_regression, Blocking_(statistics), Descriptive_statistics, Regression_model_validation, Random_assignment, Categorical_variable, Kendall_tau_rank_correlation_coefficient, Effect_size, Survival_analysis, Isotonic_regression, Nonlinear_regression, Replication_(statistics), Rank_correlation, Statistical_inference, Statistical_model, Sampling_(statistics), Median, General_linear_model, Epidemiology, Clinical_trial}
+<original graph>
+Highest pageranks: 
+1. Bayesian_linear_regression : 0.0145752
+2. Maximum_a_posteriori_estimation : 0.0129954
+3. Likelihood_function : 0.0129954
+4. Credible_interval : 0.0129954
+5. Bayesian_inference : 0.0129954
+Lowest pageranks: 
+98. Arithmetic_mean : 0.00914362
+97. Biostatistics : 0.00914362
+96. Blocking_(statistics) : 0.00914362
+95. Bootstrapping_(statistics) : 0.00914362
+94. Categorical_variable : 0.00914362
+</original graph>
+<transpose graph>
+Highest pageranks: 
+1. Population_(statistics) : 0.0112189
+2. Pearson_product-moment_correlation_coefficient : 0.0112189
+3. Maximum_likelihood : 0.0112189
+4. Kendall_tau_rank_correlation_coefficient : 0.0112189
+5. Errors_and_residuals_in_statistics : 0.0112189
+Lowest pageranks: 
+98. Partition_of_sums_of_squares : 0.00206614
+97. Scientific_control : 0.0022868
+96. Bayesian_probability : 0.00233014
+95. Posterior_probability : 0.00233362
+94. Prior_probability : 0.00233483
+</transpose graph>
+
