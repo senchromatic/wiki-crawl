@@ -1,8 +1,3 @@
-Title:
-
-Analysis of Wikipedia Link Subgraphs for Academic Disciplines
-
-
 Abstract:
 
 This project is a semi-supervised, exploratory data analysis pipeline for weakly-connected subgraphs of Wikipedia articles. Each subgraph is created automatically by crawling through hyperlinks, beginning from a small (manually) pre-defined set of pages that are central to a specific academic discipline. The procedure introduced here aims to greedily visit pages most frequently linked to by those seen so far. Preliminary analyses of the subgraphs show the distributions of tf-idf statistics, the relationship between graph and in-degree with respect to the number of pages crawled as two functions, in addition to a visualization of the stronger ties within each subgraph. Upon processing the subgraphs using several graph algorithms, we can extract information regarding their structural properties and various interesting metrics.
