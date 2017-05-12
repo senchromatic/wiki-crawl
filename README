@@ -127,6 +127,7 @@ Observations:
 
 Future work:
 
+optimize graph implementation (string -> int + map)
 HITS, Hilltop algorithm
 triadic closure
 forward edges, back edges, bidirectional edges
