@@ -64,15 +64,15 @@ $ make run -C "scripts/analysis (cpp)/"
 Outline of directories and files [brief description] {step "#" in Procedure}:
 
 ./ [root]
-	disciplines/ [names (relative addresses) of Wikipedia articles used in source sets for crawling] {1}
-	logs/ [low-level information extracted from subgraphs, copy+pasted from standard output of scripts] {3} {4} {5} {6}
+	disciplines/ [names (relative addresses) of source set articles] {1}
+	logs/ [low-level information extracted from subgraphs] {3} {4} {5} {6}
 	output/ [metadata generated from crawling]
 		*_edgelist.csv [list of edges in each subgraph] {3}
-		*_indorder.csv [indegree and subgraph order per page crawled] {3}
+		*_indorder.csv [indegree and subgraph order] {3}
 	scripts/ [Python 2.7, R, and C++14 code used for crawling, parsing, and data analysis]
-		analysis (cpp)/ [processing subgraph structure and metrics: last stage of data analysis] {6}
-		crawler, strong_ties (python)/ [first stage: crawling algorithm, visualization of strong ties] {3} {4}
-		distributions, exploration (r)/ [distributions of tf-idf statistics, in-degree and subgraph order: second stage of data analysis] {5}
+		analysis (cpp)/ [3rd stage: processing subgraph structure and metrics] {6}
+		crawler, strong_ties (python)/ [1st stage: crawling algorithm, visualization of strong ties] {3} {4}
+		distributions, exploration (r)/ [2nd stage: tf-idf statistics, in-degree and subgraph order] {5}
 		install.sh [bash script to install packages] {2}
 	visuals/ [graphics for data analysis]
 		distributions/ [distributions of tf-idf statistics] {5}
