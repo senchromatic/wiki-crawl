@@ -10,7 +10,7 @@ run:
 	bin/analysis
 
 graph.o:
-	g++ -c graph.cpp -o bin/graph.o -std=c++14 
+	g++ -std=c++14 -O3 -c graph.cpp -o bin/graph.o
 
 analysis: bin/graph.o
-	g++ -o bin/analysis analysis.cpp bin/graph.o -std=c++14
+	g++ -std=c++14 -O3 -o bin/analysis analysis.cpp bin/graph.o
